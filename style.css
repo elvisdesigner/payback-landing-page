@@ -1,0 +1,242 @@
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background-color: #15161B;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+.logo span {
+    color: #adff2f;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.area-title h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.area-title h1 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
+.area-title a {
+    display: inline-block;
+    background-color: #adff2f;
+    padding: 15px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.image1 img {
+    width: 460px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: #15161B;
+}
+
+/* cards */
+
+.section-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-cards h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+.card {
+    background-color: #2C2F37;
+    width: 200px;
+    height: 180px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.card:hover {
+    background-color: #adff2f;
+    transition: 0.3s all;
+    color: black;
+}
+
+
+.card img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+/* SECTION-3*/
+
+.section-3 {
+    background-color: #adff2f;
+    height: 367px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.image2 img {
+    width: 550px;
+    height: auto;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+.area-title-2 h1 {
+    font-size: 35px;
+}
+
+.area-title-2 h3 {
+    font-weight: normal;
+    margin-top: -15px;
+}
+
+.area-title-2 a {
+    display: inline-block;
+    background-color: #252525;
+    color: #fff;
+    padding: 15px 60px;
+    cursor: pointer;
+}
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-form h2 {
+    color: #fff;
+    text-align: center;
+
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    height: 300px;
+}
+
+.formulario input {
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+}
+
+input::placeholder {
+    color: #000;
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    background-color: #adff2f;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.social {
+
+    justify-content: center;
+    margin-top: -130px;
+    display: list-item
+}
+
+.social h3 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+.social img {
+    width: 30px;
+    margin-left: 900px;
+    margin-top: -25px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.twitter img {
+    cursor: pointer;
+    width: 20px;
+    display: flex;
+    margin-left: 940px;
+    margin-top: -30px
+}
+
+.facebook img {
+    width: 20px;
+    display: flex;
+    margin-left: 975px;
+    margin-top: -19px
+}
+
+.social-icons {
+    margin-left: 5px;
+}
+
+.social p {
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    font-size: 10px;
+}
